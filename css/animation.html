@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Animation</h1>
+    <style>
+    
+div {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  
+  animation-name: example;
+  animation-duration: 1s ;
+ 
+}
+
+
+@keyframes example {
+  0%   {background-image:url("nature.jpg"); left:0px; top:0px;}
+  25%  {background-image:url("nature.jpg"); left:200px; top:0px;}
+  50%  {background-image:url("nature.jpg"); left:200px; top:200px;}
+  75%  {background-image:url("nature.jpg"); left:0px; top:200px;}
+  100% {background-image:url("nature.jpg"); left:0px; top:0px;}
+}
+</style>
+    </style>
+    <div><img src="file:///C:/Users/intel/Desktop/website/nature.jpg" width="200px" height="200px"></div>
+    <div><img src="C:\Users\Public\Pictures\Sample Pictures/1.jpg" width="200px" height="200px"></div>
+</body>
+</html>

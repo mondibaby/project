@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100%;
+            background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("nature.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+        .navbar{
+            width: 1200px;
+            height: 75px;
+            margin: 1px;
+        }
+        .icon{
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+        .logo{
+            color: orange;
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 0px;
+            float: left;
+            padding-top: 5pc;
+        }
+        .menu{
+            width: 400pc;
+            float: left;
+            height: 70px;
+        }
+        ul{
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li{
+            list-style: none;
+            margin-left: 150px;
+            margin-top: 1pc;
+            font-size: 1pc;
+            width: 2px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.45 ease-in-out;
+        }
+        ul li a:hover{
+            color: orange;
+        }
+        
+        .content{
+            width: 1200px;
+            height: auto;
+            margin: 1px;;
+            color: white;
+            position: relative;
+        }
+        .content .par{
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-family: Arial;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+        }
+        .content h1{
+            font-family: 'Times New Roman';
+            padding-left: 20pc;
+            margin-top: 9%;
+
+        }
+        .content .cn{
+            width: 10pc;
+            height: 40px;
+            background: orange;
+            border: none;
+            margin-bottom: 10pc;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: .4s ease;
+        }
+        .content.cn a{
+            text-decoration: none;
+            color: black;
+            transition: .3s ease;
+        }
+        .cn:hover{
+            background-color: white;
+        }
+.content span{
+    color: orange;
+    font-size: 5pc;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+         <h2 class="logo">ProRoz</h2>
+            </div>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sevice</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</div>
+
+<div class="content">
+    <h1>Web Design & <br><span>Devlopmenet</span><br>Course</h1>
+    <p class="par">Lorem ispum dolor sit amet conseretur adipisicing elit. Sunt neque expedita atque eveniet<br>
+        qis nesclium.Quos nulla vero consequuntur, fugit<br> quae totam ispa illum minus laudantium</p>
+        <button class="cn"><a href="#">JOIN US</a></button>
+</div>
+        </div>
+    </div>
+</body>
+</html>

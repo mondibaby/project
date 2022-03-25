@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+div{
+    margin: 8%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: red;
+    animation: move 3s infinite linear;
+}
+@keyframes move{
+    0%{
+        transform: rotate(360deg) translateX(40px) rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg) translateX(40px) rotate(0deg);
+    }
+}
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="abc">
+        <h1>Animation Effect</h1>
+        <p>normal	Default value. The animation is played as normal (forwards)	
+            reverse	The animation is played in reverse direction (backwards)	
+            alternate	The animation is played forwards first, then backwards	
+            alternate-reverse	The animation is played backwards first, then forwards	
+            initial	Sets this property to its default value. Read about initial	
+            inherit	Inherits this property from its parent element. Read about inherit</p>
+    </div>
+</body>
+</html>
